@@ -4,44 +4,50 @@
 
 int main()
 {
-    // int age = 0;
+    //practice with int
+    int age = 0;
 
-    // printf("Enter your age: ");
-    // scanf("%d", &age);
+    printf("Enter your age: ");
+    scanf("%d", &age);
 
-    // if (age >= 60)
-    // {
-    //     printf("you are a senior citizen");
-    // }
-    // else if(age >= 18){
-    //     printf("You are an adult");
-    // }
+    if (age >= 60)
+    {
+        printf("you are a senior citizen");
+    }
+    else if(age >= 18){
+        printf("You are an adult");
+    }
     
-    // else if(age == 0){
-    //     printf("You are a newborn");
-    // }
-    // else if (age >= 12 && age <= 17)
-    // {
-    //     printf("You are a teenager");
+    else if(age == 0){
+        printf("You are a newborn");
+    }
+    else if (age >= 12 && age <= 17)
+    {
+        printf("You are a teenager");
 
-    // }
-    // else if(age <= 11 && age >= 1){
-    //     printf("You are a child");
-    // }
-    // else{
-    //     printf("you haven't born yet");
-    // }
+    }
+    else if(age <= 11 && age >= 1){
+        printf("You are a child");
+    }
+    else{
+        printf("you haven't born yet");
+    }
+
     
-    // bool isstudent = false;
+    //practice with boolean
+    bool isstudent = false;
 
-    // if(isstudent == true){
-    //     printf("You are a student");
+    if(isstudent == true){
+        printf("You are a student");
 
-    // }
-    // else{
-    //     printf("You are NOT a student");
-    // }
+    }
+    else{
+        printf("You are NOT a student");
+    }
 
+    
+
+    //practice with char
     char name[50] = "";
 
     printf("Enter your name: ");
@@ -58,4 +64,5 @@ int main()
 
 
     return 0;
+
 }
