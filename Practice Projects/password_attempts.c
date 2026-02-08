@@ -14,11 +14,11 @@ int main()
         if (userInput == correctPassword)
         {
             printf("Access granted! Welcome!\n");
-            break;  // Exit loop immediately when correct
+            break; 
         }
         else
         {
-            attemptsLeft--;  // Decrease attempts
+            attemptsLeft--; 
             
             if (attemptsLeft > 0)
             {
@@ -33,3 +33,4 @@ int main()
 
     return 0;
 }
+
